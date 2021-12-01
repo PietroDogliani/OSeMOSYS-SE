@@ -317,8 +317,8 @@ var OperatingCost{r in REGION, t in TECHNOLOGY, y in YEAR}>= 0;
 #
 #########                        Emissions                                        #############
 #
-var DiscountedTechnologyEmissionsPenalty{r in REGION, t in TECHNOLOGY, y in YEAR}>= 0;
-var ModelPeriodEmissions{r in REGION, e in EMISSION}>= 0;
+var DiscountedTechnologyEmissionsPenalty{r in REGION, t in TECHNOLOGY, y in YEAR};
+var ModelPeriodEmissions{r in REGION, e in EMISSION};
 #var AnnualTechnologyEmissionByMode{r in REGION, t in TECHNOLOGY, e in EMISSION, m in MODEperTECHNOLOGY[t], y in YEAR}>= 0;
 #var AnnualTechnologyEmission{r in REGION, t in TECHNOLOGY, e in EMISSION, y in YEAR}>= 0;
 #var AnnualTechnologyEmissionPenaltyByEmission{r in REGION, t in TECHNOLOGY, e in EMISSION, y in YEAR}>= 0;
